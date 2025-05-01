@@ -2,14 +2,18 @@
   "name": "backendproject",
   "version": "1.0.0",
   "description": "a backend project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Shivam Chaudhary",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
